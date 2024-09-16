@@ -7,13 +7,24 @@ git commit -m "Your commit message here"
 # Push the changes to the remote repository
 git push origin main
 
-# How to commit individual files:
+<------- How to commit individual files ------>
 
 # Stage specific files
 git add file1.txt file2.py
 
 # Commit the changes with a message
 git commit -m "Your commit message here"
+
+# Push the changes to the remote repository
+git push origin main
+
+<------ How to delete files from GitHub ----->
+
+# Remove the file from the repository
+git rm old_filename.txt
+
+# Commit the changes with a message
+git commit -m "Remove old_filename.txt after renaming"
 
 # Push the changes to the remote repository
 git push origin main
