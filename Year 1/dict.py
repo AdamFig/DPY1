@@ -5,3 +5,6 @@ os.system('clear')
 
 thalaxion_colony = {'name': "New Horizon",'population': "5000", 'resources': ["water", "minerals", "oxygen"], 'established': "2120"}
 print(thalaxion_colony)
+
+# Problem 2: Access Colony Information
+
